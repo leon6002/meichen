@@ -1,0 +1,106 @@
+[
+  { "name": "PWM_FCE2_0_DW.Ms", "label": "簧上质量" },
+  { "name": "PWM_FCE2_0_DW.Ix", "label": "惯性参数Ix" },
+  { "name": "PWM_FCE2_0_DW.Iy", "label": "惯性参数Iy" },
+  { "name": "PWM_FCE2_0_DW.FL_stiff", "label": "左前弹簧刚度" },
+  { "name": "PWM_FCE2_0_DW.FR_stiff", "label": "右前弹簧刚度" },
+  { "name": "PWM_FCE2_0_DW.RL_stiff", "label": "左后弹簧刚度" },
+  { "name": "PWM_FCE2_0_DW.RR_stiff", "label": "右后弹簧刚度" },
+  { "name": "PWM_FCE2_0_DW.L1", "label": "质心到前桥距离" },
+  { "name": "PWM_FCE2_0_DW.L2", "label": "质心到后桥距离" },
+  { "name": "PWM_FCE2_0_DW.Line", "label": "左右减震器距离" },
+  { "name": "PWM_FCE2_0_DW.Kbar1", "label": "前防侧倾杆的侧倾刚度" },
+  { "name": "PWM_FCE2_0_DW.Kbar2", "label": "后防侧倾杆的侧倾刚度" },
+  { "name": "PWM_FCE2_0_DW.Calibrat_Xacce", "label": "X_Acce标定参数" },
+  { "name": "PWM_FCE2_0_DW.Calibrat_Zacce", "label": "Z_Acce标定参数" },
+  { "name": "PWM_FCE2_0_DW.Calibrat_RollRate", "label": "RollRate标定参数" },
+  { "name": "PWM_FCE2_0_DW.Calibrat_PitchRate", "label": "PitchRate标定参数" },
+  {
+    "name": "PWM_FCE2_0_DW.Factor_Control[0]",
+    "label": " 标准模式中Factor_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Factor_Control[1]",
+    "label": "  硬模式中Factor_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Factor_Control[2]",
+    "label": "  软模式中Factor_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Prop_Control[0]",
+    "label": "  标准模式中Prop_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Prop_Control[1]",
+    "label": "  硬模式中Prop_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Prop_Control[2]",
+    "label": "  软模式中Prop_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Damp_Control[0]",
+    "label": "  标准模式中Damp_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Damp_Control[1]",
+    "label": "  硬模式中Damp_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Damp_Control[2]",
+    "label": "  软模式中Damp_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.C_Control[0]",
+    "label": "  标准模式中C_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.C_Control[1]",
+    "label": "  硬模式中C_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.C_Control[2]",
+    "label": "  软模式中C_Control标定参数"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.Mode_Damp",
+    "label": "  阻尼控制模式选择，1为标准模式，2为硬模式，3为软模式。"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.FL_current",
+    "label": " FL_Current，输出参数，单位：A。"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.FR_current",
+    "label": " FR_Current，输出参数，单位：A。"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.RL_current",
+    "label": " RL_Current，输出参数，单位：A。"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.RR_current",
+    "label": " RR_Current，输出参数，单位：A。"
+  },
+  { "name": "PWM_FCE2_0_DW.PWM_FL_CDC", "label": " FL_PWM，输出参数。" },
+  { "name": "PWM_FCE2_0_DW.PWM_FR_CDC", "label": "  FR_PWM，输出参数。" },
+  { "name": "PWM_FCE2_0_DW.PWM_RL_CDC", "label": "  RL_PWM，输出参数。" },
+  { "name": "PWM_FCE2_0_DW.PWM_RR_CDC", "label": "  RR_PWM，输出参数。" },
+  {
+    "name": "PWM_FCE2_0_DW.IMU_XAxisDirA",
+    "label": "IMU_X_Acce 输出参数，单位：m/s²"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.IMU_ZAxisDirA",
+    "label": "IMU_Z_Acce 输出参数，单位：m/s²"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.IMU_RollRate",
+    "label": "IMU_RollRate 输出参数，单位：°/s"
+  },
+  {
+    "name": "PWM_FCE2_0_DW.IMU_PitchRate",
+    "label": "IMU_PitchRate 输出参数，单位：°/s"
+  }
+]

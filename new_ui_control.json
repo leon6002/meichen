@@ -1,0 +1,56 @@
+{
+  "PWM_FCE2_0_DW.Modle_control": {
+    "name": "PWM_FCE2_0_DW.Modle_control",
+    "label": "“高度模式”，参数1、2、3分别表示标准模式、运动模式、越野模式三种。",
+    "method": "random.choice([1])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Model_manual": {
+    "name": "PWM_FCE2_0_DW.Model_manual",
+    "label": "手动控制高度，点击“H1高度”，按钮有效，变量“Model_manual”输出1，再 点击“H1高度”，按钮无效，变量“Model_manual”输出0；点击“H2高度”，按钮有效，变量“Model_manual”输出2，再 点击“H3高度”，“H2高度”按钮无效，“H3高度”按钮有效，变量“Model_manual”输出3；以此类推。",
+    "method": "random.choice([1])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Modle_usher": {
+    "name": "PWM_FCE2_0_DW.Modle_usher",
+    "label": "  “便捷上下车模式开关”按钮，点击一下，输出1，显示“便捷上下车已开启”5秒钟，再点击，输出0，显示“便捷上下车已关闭”5秒钟。",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Mode_Load": {
+    "name": "PWM_FCE2_0_DW.Mode_Load",
+    "label": "  “便捷载物模式开关”按钮，点击一下，输出1，显示“便捷载物已开启”5秒钟，再点击，输出0，显示“便捷载物已关闭”5秒钟。",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.ServiceOn": {
+    "name": "PWM_FCE2_0_DW.ServiceOn",
+    "label": "  “维修模式开”按钮，点击一下，输出1，“ServiceOff”输出0，显示输出“维修模式已开启！”5秒钟。",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.ServiceOff": {
+    "name": "PWM_FCE2_0_DW.ServiceOff",
+    "label": "  “维修模式关”按钮，点击一下，输出1，“ServiceOn”输出0，显示输出“维修模式已关闭！”5秒钟。",
+    "method": "random.choice([1])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.JackOn": {
+    "name": "PWM_FCE2_0_DW.JackOn",
+    "label": "  “千斤顶模式开”按钮，点击一下，输出1，“JackOff”输出0，显示输出“千斤顶模式已开启！”5秒钟。",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.JackOff": {
+    "name": "PWM_FCE2_0_DW.JackOff",
+    "label": "  “千斤顶模式关”按钮，点击一下，输出1，“JackOn”输出0，显示输出“千斤顶模式已关闭！”5秒钟。",
+    "method": "random.choice([1])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Mode_Damp": {
+    "name": "PWM_FCE2_0_DW.Mode_Damp",
+    "label": "  “悬架软硬",
+    "method": "random.choice([1])",
+    "access": 6
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "PWM_FCE2_0_DW.heighWarn[0]": {
+    "name": "PWM_FCE2_0_DW.heighWarn[0]",
+    "label": "左前高度传感器故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.heighWarn[1]": {
+    "name": "PWM_FCE2_0_DW.heighWarn[1]",
+    "label": "右前高度传感器故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.heighWarn[2]": {
+    "name": "PWM_FCE2_0_DW.heighWarn[2]",
+    "label": "左后高度传感器故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.heighWarn[3]": {
+    "name": "PWM_FCE2_0_DW.heighWarn[3]",
+    "label": "右后高度传感器故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.IMUError": {
+    "name": "PWM_FCE2_0_DW.IMUError",
+    "label": "IMU传感器故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.PumpOverT_error": {
+    "name": "PWM_FCE2_0_DW.PumpOverT_error",
+    "label": "打气泵工作超时故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.PumpGas_error": {
+    "name": "PWM_FCE2_0_DW.PumpGas_error",
+    "label": "打气泵与储气罐供气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.relayError": {
+    "name": "PWM_FCE2_0_DW.relayError",
+    "label": "打气泵电气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.aerate_error[0]": {
+    "name": "PWM_FCE2_0_DW.aerate_error[0]",
+    "label": "左前空气弹簧充气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.aerate_error[1]": {
+    "name": "PWM_FCE2_0_DW.aerate_error[1]",
+    "label": "右前空气弹簧充气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.aerate_error[2]": {
+    "name": "PWM_FCE2_0_DW.aerate_error[2]",
+    "label": "左后空气弹簧充气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.aerate_error[3]": {
+    "name": "PWM_FCE2_0_DW.aerate_error[3]",
+    "label": "右后空气弹簧充气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.TemperaWarm": {
+    "name": "PWM_FCE2_0_DW.TemperaWarm",
+    "label": "打气泵温度过高！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.exhaust_error[0]": {
+    "name": "PWM_FCE2_0_DW.exhaust_error[0]",
+    "label": "左前空气弹簧排气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.exhaust_error[1]": {
+    "name": "PWM_FCE2_0_DW.exhaust_error[1]",
+    "label": "右前空气弹簧排气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.exhaust_error[2]": {
+    "name": "PWM_FCE2_0_DW.exhaust_error[2]",
+    "label": "左后空气弹簧排气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.exhaust_error[3]": {
+    "name": "PWM_FCE2_0_DW.exhaust_error[3]",
+    "label": "右后空气弹簧排气系统故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[0]": {
+    "name": "PWM_FCE2_0_DW.errorshort[0]",
+    "label": "左前K1空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[1]": {
+    "name": "PWM_FCE2_0_DW.errorshort[1]",
+    "label": "右前K1空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[2]": {
+    "name": "PWM_FCE2_0_DW.errorshort[2]",
+    "label": "左前K2空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[3]": {
+    "name": "PWM_FCE2_0_DW.errorshort[3]",
+    "label": "右前K2空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[4]": {
+    "name": "PWM_FCE2_0_DW.errorshort[4]",
+    "label": "左后K1空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[5]": {
+    "name": "PWM_FCE2_0_DW.errorshort[5]",
+    "label": "右后K1空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[6]": {
+    "name": "PWM_FCE2_0_DW.errorshort[6]",
+    "label": "左后K2空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorshort[7]": {
+    "name": "PWM_FCE2_0_DW.errorshort[7]",
+    "label": "右后K2空气阀短路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[0]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[0]",
+    "label": "左前K1空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[1]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[1]",
+    "label": "右前K1空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[2]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[2]",
+    "label": "左前K2空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[3]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[3]",
+    "label": "右前K2空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[4]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[4]",
+    "label": "左后K1空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[5]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[5]",
+    "label": "右后K1空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[6]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[6]",
+    "label": "左后K2空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  },
+  "PWM_FCE2_0_DW.errorbrokrn[7]": {
+    "name": "PWM_FCE2_0_DW.errorbrokrn[7]",
+    "label": "右后K2空气阀断路故障！",
+    "method": "random_warning()",
+    "access": 4
+  }
+}

@@ -1,0 +1,908 @@
+{
+    "PWM_FCE2_0_DW.Emer_Brake_Pedal": {
+        "name": "PWM_FCE2_0_DW.Emer_Brake_Pedal",
+        "label": "刹车踏板开度阈值，范围0—100，单位：%",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Rapid_Acce_Pedal": {
+        "name": "PWM_FCE2_0_DW.Rapid_Acce_Pedal",
+        "label": "加速踏板开度阈值，范围0—100，单位：%",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Brake_Thre": {
+        "name": "PWM_FCE2_0_DW.Brake_Thre",
+        "label": "急刹车加速度阈值，范围 -1—1，单位：g",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Accele_Thre": {
+        "name": "PWM_FCE2_0_DW.Accele_Thre",
+        "label": " 急加速加速度阈值，范围 0—1，单位：g",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Calibra_AirValve": {
+        "name": "PWM_FCE2_0_DW.Calibra_AirValve",
+        "label": " “空气阀控制电流与占空比对应关系标定”按钮，点击按钮，输出为1，“手动控制空气阀占空比”输入有效；再点击，输出为0，“手动控制空气阀占空比”输入无效",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.AirValve_Control": {
+        "name": "PWM_FCE2_0_DW.AirValve_Control",
+        "label": "“控制占空比”输入参数，范围 0—1",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Start_Current": {
+        "name": "PWM_FCE2_0_DW.Start_Current",
+        "label": "“启动电流时对应占空比”输入参数，范围 0—1",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Maint_Current": {
+        "name": "PWM_FCE2_0_DW.Maint_Current",
+        "label": "“保持电流时对应占空比”输入参数，范围 0—1",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.TimeP": {
+        "name": "PWM_FCE2_0_DW.TimeP",
+        "label": "“空气阀启动电流时间”输入参数，单位：秒",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Test_AirValve": {
+        "name": "PWM_FCE2_0_DW.Test_AirValve",
+        "label": "“空气阀测试”按钮，点击按钮，输出为1，8个空气阀测试按钮有效；再点击，输出为0，8个空气阀测试按钮无效。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[0]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[0]",
+        "label": "“左前悬K1空气阀”按钮，点击按钮，输出为1，再点击，输出为0",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[1]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[1]",
+        "label": "“右前悬K1空气阀”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[2]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[2]",
+        "label": "“左前悬K2空气阀”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[3]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[3]",
+        "label": "“右前悬K2空气阀”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[4]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[4]",
+        "label": "“左后悬K1空气阀”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[5]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[5]",
+        "label": "“右后悬K1空气阀”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[6]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[6]",
+        "label": "“左后悬K2空气阀”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Manual_AirValve[7]": {
+        "name": "PWM_FCE2_0_DW.Manual_AirValve[7]",
+        "label": "“右后悬K2空气阀”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.speed": {
+        "name": "PWM_FCE2_0_DW.speed",
+        "label": " 速度，km/h。输入/输出参数，台架测试时人工输入，实车测试显示读取的实际车速。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.AccelerationPedalPosition": {
+        "name": "PWM_FCE2_0_DW.AccelerationPedalPosition",
+        "label": " 加速踏板开合度，%。输入/输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.BrakePosition": {
+        "name": "PWM_FCE2_0_DW.BrakePosition",
+        "label": "刹车踏板开合度，%。输入/输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.SteeringWheelAngle": {
+        "name": "PWM_FCE2_0_DW.SteeringWheelAngle",
+        "label": "方向盘转角，°。输入/输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.X_Acce": {
+        "name": "PWM_FCE2_0_DW.X_Acce",
+        "label": "加速度值，米/秒。输入/输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.pump_relay": {
+        "name": "PWM_FCE2_0_DW.pump_relay",
+        "label": "“打气泵状态”，打气泵工作时，输出为1，指示灯亮绿色，打气泵不工作时，输出为0，指示灯不亮。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.TempSensor": {
+        "name": "PWM_FCE2_0_DW.TempSensor",
+        "label": "“打气泵温度值”，显示温度值。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "TemperaWarm": {
+        "name": "TemperaWarm",
+        "label": " 输出为1时，说明温度超过设定的阈值时，对应的红色灯亮。输出为0，指示灯不亮。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Press_Tank": {
+        "name": "PWM_FCE2_0_DW.Press_Tank",
+        "label": "“储气罐气压”，显示储气罐气压。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Press_FL": {
+        "name": "PWM_FCE2_0_DW.Press_FL",
+        "label": "“FL压力”，显示FL空气弹簧气压",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Press_FR": {
+        "name": "PWM_FCE2_0_DW.Press_FR",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Press_RL": {
+        "name": "PWM_FCE2_0_DW.Press_RL",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Press_RR": {
+        "name": "PWM_FCE2_0_DW.Press_RR",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.manual_control": {
+        "name": "PWM_FCE2_0_DW.manual_control",
+        "label": "“手动控制空气弹簧高度”按钮：点击，启动手动控制，输出为1，该模块内的高度控制按钮有效；再点击，关闭手动控制，输出为0，该模块内的高度控制按钮无效；",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.front_axle_up": {
+        "name": "PWM_FCE2_0_DW.front_axle_up",
+        "label": "“前桥升”按钮，桥控，前桥两个空气弹簧一起升降，按钮按住有效，输出为1；松开无效，输出为0。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.front_axle_dowm": {
+        "name": "PWM_FCE2_0_DW.front_axle_dowm",
+        "label": "“前桥降”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.rear_axle_up": {
+        "name": "PWM_FCE2_0_DW.rear_axle_up",
+        "label": "“后桥升”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.rear_axle_dowm": {
+        "name": "PWM_FCE2_0_DW.rear_axle_dowm",
+        "label": "“后桥降”按钮",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.FL_up": {
+        "name": "PWM_FCE2_0_DW.FL_up",
+        "label": "“左前升”按钮，按住有效，输出为1；松开无效，输出为0。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.FL_down": {
+        "name": "PWM_FCE2_0_DW.FL_down",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.FR_up": {
+        "name": "PWM_FCE2_0_DW.FR_up",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.FR_down": {
+        "name": "PWM_FCE2_0_DW.FR_down",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.RL_up": {
+        "name": "PWM_FCE2_0_DW.RL_up",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.RL_down": {
+        "name": "PWM_FCE2_0_DW.RL_down",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.RR_up": {
+        "name": "PWM_FCE2_0_DW.RR_up",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.RR_down": {
+        "name": "PWM_FCE2_0_DW.RR_down",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.heigh_Input[0]": {
+        "name": "PWM_FCE2_0_DW.heigh_Input[0]",
+        "label": "“FL标定高度”，用户输入参数；",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.heigh_Input[1]": {
+        "name": "PWM_FCE2_0_DW.heigh_Input[1]",
+        "label": "“FR标定高度”，用户输入参数；",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.heigh_Input[2]": {
+        "name": "PWM_FCE2_0_DW.heigh_Input[2]",
+        "label": "“RL标定高度”，用户输入参数；",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.heigh_Input[3]": {
+        "name": "PWM_FCE2_0_DW.heigh_Input[3]",
+        "label": "“RR标定高度”，用户输入参数；",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.H1_Calib": {
+        "name": "PWM_FCE2_0_DW.H1_Calib",
+        "label": "“H1标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H1高度标定完成！”，显示5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.H2_Calib": {
+        "name": "PWM_FCE2_0_DW.H2_Calib",
+        "label": "“H2标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H2高度标定完成！”，显示5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.H3_Calib": {
+        "name": "PWM_FCE2_0_DW.H3_Calib",
+        "label": "“H3标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H3高度标定完成！”，显示5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.H4_Calib": {
+        "name": "PWM_FCE2_0_DW.H4_Calib",
+        "label": "“H4标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H4高度标定完成！”，显示5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Detect_Tank": {
+        "name": "PWM_FCE2_0_DW.Detect_Tank",
+        "label": " “储气罐充气”按钮，点击按钮，输出为1，“储气罐气压”指示灯亮，输出显示储气罐气压；再点击按钮，输出为0，“储气罐气压”指示灯灭，不输出显示储气罐气压。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Detect_FL": {
+        "name": "PWM_FCE2_0_DW.Detect_FL",
+        "label": "气压检测中“左前”按钮，点击按钮，输出为1，“FL压力”指示灯亮，输出FL空气弹簧气压；再点击按钮，输出为0，“FL压力”指示灯灭，不输出显示FL空气弹簧气压。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Detect_FR": {
+        "name": "PWM_FCE2_0_DW.Detect_FR",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Detect_RL": {
+        "name": "PWM_FCE2_0_DW.Detect_RL",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Detect_RR": {
+        "name": "PWM_FCE2_0_DW.Detect_RR",
+        "label": "",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.nom_height[0]": {
+        "name": "PWM_FCE2_0_DW.nom_height[0]",
+        "label": "“H1标准高度”，用户输入参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.nom_height[1]": {
+        "name": "PWM_FCE2_0_DW.nom_height[1]",
+        "label": "“H2标准高度”，用户输入参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.nom_height[2]": {
+        "name": "PWM_FCE2_0_DW.nom_height[2]",
+        "label": "“H3标准高度”，用户输入参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.nom_height[3]": {
+        "name": "PWM_FCE2_0_DW.nom_height[3]",
+        "label": "“H4标准高度”，用户输入参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Devia": {
+        "name": "PWM_FCE2_0_DW.Devia",
+        "label": "“空气弹簧高度变化冗余度”，用户输入参数，默认5毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Redund": {
+        "name": "PWM_FCE2_0_DW.Redund",
+        "label": "“车身高度调整偏差”，用户输入参数，默认1毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.L_pressure": {
+        "name": "PWM_FCE2_0_DW.L_pressure",
+        "label": "“储气罐补气阈值”，用户输入参数，默认0.5Bar。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.H_pressure": {
+        "name": "PWM_FCE2_0_DW.H_pressure",
+        "label": "“储气罐停止补气阈值”，用户输入参数，默认0.8Bar。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Level1": {
+        "name": "PWM_FCE2_0_DW.Level1",
+        "label": "“H1高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Level2": {
+        "name": "PWM_FCE2_0_DW.Level2",
+        "label": "“H2高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Level3": {
+        "name": "PWM_FCE2_0_DW.Level3",
+        "label": "“H3高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Level4": {
+        "name": "PWM_FCE2_0_DW.Level4",
+        "label": "“H4高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Modle_control": {
+        "name": "PWM_FCE2_0_DW.Modle_control",
+        "label": "“高度模式”，参数1、2、3分别表示标准模式、运动模式、越野模式三种。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.test_levelOut": {
+        "name": "PWM_FCE2_0_DW.test_levelOut",
+        "label": "“当前高度等级”，参数1、2、3、4分别表示H1、H2、H3、H4。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.hout[0]": {
+        "name": "PWM_FCE2_0_DW.hout[0]",
+        "label": "“FL实时高度”，输出参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.hout[1]": {
+        "name": "PWM_FCE2_0_DW.hout[1]",
+        "label": "“FR实时高度”，输出参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.hout[2]": {
+        "name": "PWM_FCE2_0_DW.hout[2]",
+        "label": "“RL实时高度”，输出参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.hout[3]": {
+        "name": "PWM_FCE2_0_DW.hout[3]",
+        "label": "“RR实时高度”，输出参数，单位：毫米。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Ms": {
+        "name": "PWM_FCE2_0_DW.Ms",
+        "label": "簧上质量",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Ix": {
+        "name": "PWM_FCE2_0_DW.Ix",
+        "label": "惯性参数Ix",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Iy": {
+        "name": "PWM_FCE2_0_DW.Iy",
+        "label": "惯性参数Iy",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.FL_stiff": {
+        "name": "PWM_FCE2_0_DW.FL_stiff",
+        "label": "左前弹簧刚度",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.FR_stiff": {
+        "name": "PWM_FCE2_0_DW.FR_stiff",
+        "label": "右前弹簧刚度",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.RL_stiff": {
+        "name": "PWM_FCE2_0_DW.RL_stiff",
+        "label": "左后弹簧刚度",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.RR_stiff": {
+        "name": "PWM_FCE2_0_DW.RR_stiff",
+        "label": "右后弹簧刚度",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.L1": {
+        "name": "PWM_FCE2_0_DW.L1",
+        "label": "质心到前桥距离",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.L2": {
+        "name": "PWM_FCE2_0_DW.L2",
+        "label": "质心到后桥距离",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Line": {
+        "name": "PWM_FCE2_0_DW.Line",
+        "label": "左右减震器距离",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Kbar1": {
+        "name": "PWM_FCE2_0_DW.Kbar1",
+        "label": "前防侧倾杆的侧倾刚度",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Kbar2": {
+        "name": "PWM_FCE2_0_DW.Kbar2",
+        "label": "后防侧倾杆的侧倾刚度",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Calibrat_Xacce": {
+        "name": "PWM_FCE2_0_DW.Calibrat_Xacce",
+        "label": "X_Acce标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Calibrat_Zacce": {
+        "name": "PWM_FCE2_0_DW.Calibrat_Zacce",
+        "label": "Z_Acce标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Calibrat_RollRate": {
+        "name": "PWM_FCE2_0_DW.Calibrat_RollRate",
+        "label": "RollRate标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Calibrat_PitchRate": {
+        "name": "PWM_FCE2_0_DW.Calibrat_PitchRate",
+        "label": "PitchRate标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Factor_Control[0]": {
+        "name": "PWM_FCE2_0_DW.Factor_Control[0]",
+        "label": " 标准模式中Factor_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Factor_Control[1]": {
+        "name": "PWM_FCE2_0_DW.Factor_Control[1]",
+        "label": "  硬模式中Factor_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Factor_Control[2]": {
+        "name": "PWM_FCE2_0_DW.Factor_Control[2]",
+        "label": "  软模式中Factor_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Prop_Control[0]": {
+        "name": "PWM_FCE2_0_DW.Prop_Control[0]",
+        "label": "  标准模式中Prop_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Prop_Control[1]": {
+        "name": "PWM_FCE2_0_DW.Prop_Control[1]",
+        "label": "  硬模式中Prop_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Prop_Control[2]": {
+        "name": "PWM_FCE2_0_DW.Prop_Control[2]",
+        "label": "  软模式中Prop_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Damp_Control[0]": {
+        "name": "PWM_FCE2_0_DW.Damp_Control[0]",
+        "label": "  标准模式中Damp_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Damp_Control[1]": {
+        "name": "PWM_FCE2_0_DW.Damp_Control[1]",
+        "label": "  硬模式中Damp_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Damp_Control[2]": {
+        "name": "PWM_FCE2_0_DW.Damp_Control[2]",
+        "label": "  软模式中Damp_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.C_Control[0]": {
+        "name": "PWM_FCE2_0_DW.C_Control[0]",
+        "label": "  标准模式中C_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.C_Control[1]": {
+        "name": "PWM_FCE2_0_DW.C_Control[1]",
+        "label": "  硬模式中C_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.C_Control[2]": {
+        "name": "PWM_FCE2_0_DW.C_Control[2]",
+        "label": "  软模式中C_Control标定参数",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Mode_Damp": {
+        "name": "PWM_FCE2_0_DW.Mode_Damp",
+        "label": "  “便捷载物模式开关”按钮，点击一下，输出1，显示“便捷载物已开启”5秒钟，再点击，输出0，显示“便捷载物已关闭”5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.FL_current": {
+        "name": "PWM_FCE2_0_DW.FL_current",
+        "label": " FL_Current，输出参数，单位：A。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.FR_current": {
+        "name": "PWM_FCE2_0_DW.FR_current",
+        "label": " FR_Current，输出参数，单位：A。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.RL_current": {
+        "name": "PWM_FCE2_0_DW.RL_current",
+        "label": " RL_Current，输出参数，单位：A。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.RR_current": {
+        "name": "PWM_FCE2_0_DW.RR_current",
+        "label": " RR_Current，输出参数，单位：A。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.PWM_FL_CDC": {
+        "name": "PWM_FCE2_0_DW.PWM_FL_CDC",
+        "label": " FL_PWM，输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.PWM_FR_CDC": {
+        "name": "PWM_FCE2_0_DW.PWM_FR_CDC",
+        "label": "  FR_PWM，输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.PWM_RL_CDC": {
+        "name": "PWM_FCE2_0_DW.PWM_RL_CDC",
+        "label": "  RL_PWM，输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.PWM_RR_CDC": {
+        "name": "PWM_FCE2_0_DW.PWM_RR_CDC",
+        "label": "  RR_PWM，输出参数。",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.heighWarn[0]": {
+        "name": "PWM_FCE2_0_DW.heighWarn[0]",
+        "label": "左前高度传感器故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.heighWarn[1]": {
+        "name": "PWM_FCE2_0_DW.heighWarn[1]",
+        "label": "右前高度传感器故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.heighWarn[2]": {
+        "name": "PWM_FCE2_0_DW.heighWarn[2]",
+        "label": "左后高度传感器故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.heighWarn[3]": {
+        "name": "PWM_FCE2_0_DW.heighWarn[3]",
+        "label": "右后高度传感器故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.IMUError": {
+        "name": "PWM_FCE2_0_DW.IMUError",
+        "label": "IMU传感器故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.PumpOverT_error": {
+        "name": "PWM_FCE2_0_DW.PumpOverT_error",
+        "label": "打气泵工作超时故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.PumpGas_error": {
+        "name": "PWM_FCE2_0_DW.PumpGas_error",
+        "label": "打气泵与储气罐供气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.relayError": {
+        "name": "PWM_FCE2_0_DW.relayError",
+        "label": "打气泵电气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.aerate_error[0]": {
+        "name": "PWM_FCE2_0_DW.aerate_error[0]",
+        "label": "左前空气弹簧充气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.aerate_error[1]": {
+        "name": "PWM_FCE2_0_DW.aerate_error[1]",
+        "label": "右前空气弹簧充气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.aerate_error[2]": {
+        "name": "PWM_FCE2_0_DW.aerate_error[2]",
+        "label": "左后空气弹簧充气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.aerate_error[3]": {
+        "name": "PWM_FCE2_0_DW.aerate_error[3]",
+        "label": "右后空气弹簧充气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.TemperaWarm": {
+        "name": "PWM_FCE2_0_DW.TemperaWarm",
+        "label": "打气泵温度过高！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.exhaust_error[0]": {
+        "name": "PWM_FCE2_0_DW.exhaust_error[0]",
+        "label": "左前空气弹簧排气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.exhaust_error[1]": {
+        "name": "PWM_FCE2_0_DW.exhaust_error[1]",
+        "label": "右前空气弹簧排气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.exhaust_error[2]": {
+        "name": "PWM_FCE2_0_DW.exhaust_error[2]",
+        "label": "左后空气弹簧排气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.exhaust_error[3]": {
+        "name": "PWM_FCE2_0_DW.exhaust_error[3]",
+        "label": "右后空气弹簧排气系统故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[0]": {
+        "name": "PWM_FCE2_0_DW.errorshort[0]",
+        "label": "左前K1空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[1]": {
+        "name": "PWM_FCE2_0_DW.errorshort[1]",
+        "label": "右前K1空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[2]": {
+        "name": "PWM_FCE2_0_DW.errorshort[2]",
+        "label": "左前K2空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[3]": {
+        "name": "PWM_FCE2_0_DW.errorshort[3]",
+        "label": "右前K2空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[4]": {
+        "name": "PWM_FCE2_0_DW.errorshort[4]",
+        "label": "左后K1空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[5]": {
+        "name": "PWM_FCE2_0_DW.errorshort[5]",
+        "label": "右后K1空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[6]": {
+        "name": "PWM_FCE2_0_DW.errorshort[6]",
+        "label": "左后K2空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorshort[7]": {
+        "name": "PWM_FCE2_0_DW.errorshort[7]",
+        "label": "右后K2空气阀短路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[0]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[0]",
+        "label": "左前K1空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[1]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[1]",
+        "label": "右前K1空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[2]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[2]",
+        "label": "左前K2空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[3]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[3]",
+        "label": "右前K2空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[4]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[4]",
+        "label": "左后K1空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[5]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[5]",
+        "label": "右后K1空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[6]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[6]",
+        "label": "左后K2空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.errorbrokrn[7]": {
+        "name": "PWM_FCE2_0_DW.errorbrokrn[7]",
+        "label": "右后K2空气阀断路故障！",
+        "method": "random.uniform(0,100)",
+        "access": 4
+    },
+    "PWM_FCE2_0_DW.Model_manual": {
+        "name": "PWM_FCE2_0_DW.Model_manual",
+        "label": "手动控制高度，点击“H1高度”，按钮有效，变量“Model_manual”输出1，再 点击“H1高度”，按钮无效，变量“Model_manual”输出0；点击“H2高度”，按钮有效，变量“Model_manual”输出2，再 点击“H3高度”，“H2高度”按钮无效，“H3高度”按钮有效，变量“Model_manual”输出3；以此类推。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.Modle_usher": {
+        "name": "PWM_FCE2_0_DW.Modle_usher",
+        "label": "  “便捷上下车模式开关”按钮，点击一下，输出1，显示“便捷上下车已开启”5秒钟，再点击，输出0，显示“便捷上下车已关闭”5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.ServiceOn": {
+        "name": "PWM_FCE2_0_DW.ServiceOn",
+        "label": "  “维修模式开”按钮，点击一下，输出1，“ServiceOff”输出0，显示输出“维修模式已开启！”5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.ServiceOff": {
+        "name": "PWM_FCE2_0_DW.ServiceOff",
+        "label": "  “维修模式关”按钮，点击一下，输出1，“ServiceOn”输出0，显示输出“维修模式已关闭！”5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.JackOn": {
+        "name": "PWM_FCE2_0_DW.JackOn",
+        "label": "  “千斤顶模式开”按钮，点击一下，输出1，“JackOff”输出0，显示输出“千斤顶模式已开启！”5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    },
+    "PWM_FCE2_0_DW.JackOff": {
+        "name": "PWM_FCE2_0_DW.JackOff",
+        "label": "  “千斤顶模式关”按钮，点击一下，输出1，“JackOn”输出0，显示输出“千斤顶模式已关闭！”5秒钟。",
+        "method": "random.uniform(0,100)",
+        "access": 6
+    }
+}

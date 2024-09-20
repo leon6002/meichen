@@ -1,0 +1,4 @@
+14．“整车升”按钮，按钮按住有效，"PWM_FCE2_0_DW.front_axle_up"和"PWM_FCE2_0_DW.rear_axle_up"输出为1。
+15．“整车降”按钮，按钮按住有效，"PWM_FCE2_0_DW.front_axle_dowm"和"PWM_FCE2_0_DW.rear_axle_dowm"输出为1。
+41．"name": "PWM_FCE2_0_DW.height_auxil",“辅助功能高度”，用户输入参数，单位：毫米。该输入参数范围nom_height[0]-20<=height_auxil<=nom_height[0],如果用户输入数值超过允许范围，报警“输入数值有误，不能小于nom_height[0]-20且不能大于nom_height[0]！”。
+52．当"PWM_FCE2_0_DW.test_levelOut"输出为1时，“FL标准高度”、“FR标准高度”、“RL标准高度”、“RR标准高度”都输出为nom_height[0]值；当"PWM_FCE2_0_DW.test_levelOut"输出为2时，都输出为nom_height[1]值，以此类推。

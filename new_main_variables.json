@@ -1,0 +1,350 @@
+{
+  "PWM_FCE2_0_DW.speed": {
+    "name": "PWM_FCE2_0_DW.speed",
+    "label": " 速度，km/h。输入/输出参数，台架测试时人工输入，实车测试显示读取的实际车速。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.AccelerationPedalPosition": {
+    "name": "PWM_FCE2_0_DW.AccelerationPedalPosition",
+    "label": " 加速踏板开合度，%。输入/输出参数。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.BrakePosition": {
+    "name": "PWM_FCE2_0_DW.BrakePosition",
+    "label": "刹车踏板开合度，%。输入/输出参数。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.SteeringWheelAngle": {
+    "name": "PWM_FCE2_0_DW.SteeringWheelAngle",
+    "label": "方向盘转角，°。输入/输出参数。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.X_Acce": {
+    "name": "PWM_FCE2_0_DW.X_Acce",
+    "label": "加速度值，米/秒。输入/输出参数。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.pump_relay": {
+    "name": "PWM_FCE2_0_DW.pump_relay",
+    "label": "“打气泵状态”，打气泵工作时，输出为1，指示灯亮绿色，打气泵不工作时，输出为0，指示灯不亮。",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.TempSensor": {
+    "name": "PWM_FCE2_0_DW.TempSensor",
+    "label": "“打气泵温度值”，显示温度值。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "TemperaWarm": {
+    "name": "TemperaWarm",
+    "label": " 输出为1时，说明温度超过设定的阈值时，对应的红色灯亮。输出为0，指示灯不亮。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Press_Tank": {
+    "name": "PWM_FCE2_0_DW.Press_Tank",
+    "label": "“储气罐气压”，显示储气罐气压。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Press_FL": {
+    "name": "PWM_FCE2_0_DW.Press_FL",
+    "label": "“FL压力”，显示FL空气弹簧气压",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Press_FR": {
+    "name": "PWM_FCE2_0_DW.Press_FR",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Press_RL": {
+    "name": "PWM_FCE2_0_DW.Press_RL",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Press_RR": {
+    "name": "PWM_FCE2_0_DW.Press_RR",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.manual_control": {
+    "name": "PWM_FCE2_0_DW.manual_control",
+    "label": "“手动控制空气弹簧高度”按钮：点击，启动手动控制，输出为1，该模块内的高度控制按钮有效；再点击，关闭手动控制，输出为0，该模块内的高度控制按钮无效；",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.front_axle_up": {
+    "name": "PWM_FCE2_0_DW.front_axle_up",
+    "label": "“前桥升”按钮，桥控，前桥两个空气弹簧一起升降，按钮按住有效，输出为1；松开无效，输出为0。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.front_axle_dowm": {
+    "name": "PWM_FCE2_0_DW.front_axle_dowm",
+    "label": "“前桥降”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.rear_axle_up": {
+    "name": "PWM_FCE2_0_DW.rear_axle_up",
+    "label": "“后桥升”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.rear_axle_dowm": {
+    "name": "PWM_FCE2_0_DW.rear_axle_dowm",
+    "label": "“后桥降”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.FL_up": {
+    "name": "PWM_FCE2_0_DW.FL_up",
+    "label": "“左前升”按钮，按住有效，输出为1；松开无效，输出为0。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.FL_down": {
+    "name": "PWM_FCE2_0_DW.FL_down",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.FR_up": {
+    "name": "PWM_FCE2_0_DW.FR_up",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.FR_down": {
+    "name": "PWM_FCE2_0_DW.FR_down",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RL_up": {
+    "name": "PWM_FCE2_0_DW.RL_up",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RL_down": {
+    "name": "PWM_FCE2_0_DW.RL_down",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RR_up": {
+    "name": "PWM_FCE2_0_DW.RR_up",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RR_down": {
+    "name": "PWM_FCE2_0_DW.RR_down",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.heigh_Input[0]": {
+    "name": "PWM_FCE2_0_DW.heigh_Input[0]",
+    "label": "“FL标定高度”，用户输入参数；",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.heigh_Input[1]": {
+    "name": "PWM_FCE2_0_DW.heigh_Input[1]",
+    "label": "“FR标定高度”，用户输入参数；",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.heigh_Input[2]": {
+    "name": "PWM_FCE2_0_DW.heigh_Input[2]",
+    "label": "“RL标定高度”，用户输入参数；",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.heigh_Input[3]": {
+    "name": "PWM_FCE2_0_DW.heigh_Input[3]",
+    "label": "“RR标定高度”，用户输入参数；",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.H1_Calib": {
+    "name": "PWM_FCE2_0_DW.H1_Calib",
+    "label": "“H1标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H1高度标定完成！”，显示5秒钟。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.H2_Calib": {
+    "name": "PWM_FCE2_0_DW.H2_Calib",
+    "label": "“H2标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H2高度标定完成！”，显示5秒钟。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.H3_Calib": {
+    "name": "PWM_FCE2_0_DW.H3_Calib",
+    "label": "“H3标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H3高度标定完成！”，显示5秒钟。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.H4_Calib": {
+    "name": "PWM_FCE2_0_DW.H4_Calib",
+    "label": "“H4标定保存”按钮，点击一下按钮，输出为1，系统状态输出“H4高度标定完成！”，显示5秒钟。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Detect_Tank": {
+    "name": "PWM_FCE2_0_DW.Detect_Tank",
+    "label": " “储气罐充气”按钮，点击按钮，输出为1，“储气罐气压”指示灯亮，输出显示储气罐气压；再点击按钮，输出为0，“储气罐气压”指示灯灭，不输出显示储气罐气压。",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Detect_FL": {
+    "name": "PWM_FCE2_0_DW.Detect_FL",
+    "label": "气压检测中“左前”按钮，点击按钮，输出为1，“FL压力”指示灯亮，输出FL空气弹簧气压；再点击按钮，输出为0，“FL压力”指示灯灭，不输出显示FL空气弹簧气压。",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Detect_FR": {
+    "name": "PWM_FCE2_0_DW.Detect_FR",
+    "label": "",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Detect_RL": {
+    "name": "PWM_FCE2_0_DW.Detect_RL",
+    "label": "",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Detect_RR": {
+    "name": "PWM_FCE2_0_DW.Detect_RR",
+    "label": "",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.nom_height[0]": {
+    "name": "PWM_FCE2_0_DW.nom_height[0]",
+    "label": "“H1标准高度”，用户输入参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.nom_height[1]": {
+    "name": "PWM_FCE2_0_DW.nom_height[1]",
+    "label": "“H2标准高度”，用户输入参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.nom_height[2]": {
+    "name": "PWM_FCE2_0_DW.nom_height[2]",
+    "label": "“H3标准高度”，用户输入参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.nom_height[3]": {
+    "name": "PWM_FCE2_0_DW.nom_height[3]",
+    "label": "“H4标准高度”，用户输入参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Devia": {
+    "name": "PWM_FCE2_0_DW.Devia",
+    "label": "“空气弹簧高度变化冗余度”，用户输入参数，默认5毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Redund": {
+    "name": "PWM_FCE2_0_DW.Redund",
+    "label": "“车身高度调整偏差”，用户输入参数，默认1毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.L_pressure": {
+    "name": "PWM_FCE2_0_DW.L_pressure",
+    "label": "“储气罐补气阈值”，用户输入参数，默认0.5Bar。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.H_pressure": {
+    "name": "PWM_FCE2_0_DW.H_pressure",
+    "label": "“储气罐停止补气阈值”，用户输入参数，默认0.8Bar。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Level1": {
+    "name": "PWM_FCE2_0_DW.Level1",
+    "label": "“H1高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Level2": {
+    "name": "PWM_FCE2_0_DW.Level2",
+    "label": "“H2高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Level3": {
+    "name": "PWM_FCE2_0_DW.Level3",
+    "label": "“H3高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Level4": {
+    "name": "PWM_FCE2_0_DW.Level4",
+    "label": "“H4高度”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Modle_control": {
+    "name": "PWM_FCE2_0_DW.Modle_control",
+    "label": "“高度模式”，参数1、2、3分别表示标准模式、运动模式、越野模式三种。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.test_levelOut": {
+    "name": "PWM_FCE2_0_DW.test_levelOut",
+    "label": "“当前高度等级”，参数1、2、3、4分别表示H1、H2、H3、H4。",
+    "method": "random.choice([1])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.hout[0]": {
+    "name": "PWM_FCE2_0_DW.hout[0]",
+    "label": "“FL实时高度”，输出参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.hout[1]": {
+    "name": "PWM_FCE2_0_DW.hout[1]",
+    "label": "“FR实时高度”，输出参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.hout[2]": {
+    "name": "PWM_FCE2_0_DW.hout[2]",
+    "label": "“RL实时高度”，输出参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.hout[3]": {
+    "name": "PWM_FCE2_0_DW.hout[3]",
+    "label": "“RR实时高度”，输出参数，单位：毫米。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Aerate_Tank": {
+    "name": "PWM_FCE2_0_DW.Aerate_Tank",
+    "label": "“储气罐补气”按钮，点击按钮，输出为1，松开按钮，输出为0。",
+    "method": "random.choice([0])",
+    "access": 6
+  }
+}

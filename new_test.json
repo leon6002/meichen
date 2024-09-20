@@ -1,0 +1,20 @@
+{
+  "IMU_DW.ax": {
+    "name": "IMU_DW.ax",
+    "label": "x",
+    "method": "random.uniform(0.46,0.48)",
+    "access": 4
+  },
+  "IMU_DW.ay": {
+    "name": "IMU_DW.ay",
+    "label": "y",
+    "method": "random.uniform(0.46,0.48)",
+    "access": 4
+  },
+  "IMU_DW.az": {
+    "name": "IMU_DW.az",
+    "label": "z",
+    "method": "random.uniform(9.8,9.9)",
+    "access": 4
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "PWM_FCE2_0_DW.Emer_Brake_Pedal": {
+    "name": "PWM_FCE2_0_DW.Emer_Brake_Pedal",
+    "label": "刹车踏板开度阈值，范围0—100，单位：%",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Rapid_Acce_Pedal": {
+    "name": "PWM_FCE2_0_DW.Rapid_Acce_Pedal",
+    "label": "加速踏板开度阈值，范围0—100，单位：%",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Brake_Thre": {
+    "name": "PWM_FCE2_0_DW.Brake_Thre",
+    "label": "急刹车加速度阈值，范围 -1—1，单位：g",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Accele_Thre": {
+    "name": "PWM_FCE2_0_DW.Accele_Thre",
+    "label": " 急加速加速度阈值，范围 0—1，单位：g",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Calibra_AirValve": {
+    "name": "PWM_FCE2_0_DW.Calibra_AirValve",
+    "label": " “空气阀控制电流与占空比对应关系标定”按钮，点击按钮，输出为1，“手动控制空气阀占空比”输入有效；再点击，输出为0，“手动控制空气阀占空比”输入无效",
+    "method": "random.choice([0])",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.AirValve_Control": {
+    "name": "PWM_FCE2_0_DW.AirValve_Control",
+    "label": "“控制占空比”输入参数，范围 0—1",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Start_Current": {
+    "name": "PWM_FCE2_0_DW.Start_Current",
+    "label": "“启动电流时对应占空比”输入参数，范围 0—1",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Maint_Current": {
+    "name": "PWM_FCE2_0_DW.Maint_Current",
+    "label": "“保持电流时对应占空比”输入参数，范围 0—1",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.TimeP": {
+    "name": "PWM_FCE2_0_DW.TimeP",
+    "label": "“空气阀启动电流时间”输入参数，单位：秒",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Test_AirValve": {
+    "name": "PWM_FCE2_0_DW.Test_AirValve",
+    "label": "“空气阀测试”按钮，点击按钮，输出为1，8个空气阀测试按钮有效；再点击，输出为0，8个空气阀测试按钮无效。",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[0]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[0]",
+    "label": "“左前悬K1空气阀”按钮，点击按钮，输出为1，再点击，输出为0",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[1]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[1]",
+    "label": "“右前悬K1空气阀”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[2]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[2]",
+    "label": "“左前悬K2空气阀”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[3]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[3]",
+    "label": "“右前悬K2空气阀”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[4]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[4]",
+    "label": "“左后悬K1空气阀”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[5]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[5]",
+    "label": "“右后悬K1空气阀”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[6]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[6]",
+    "label": "“左后悬K2空气阀”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.Manual_AirValve[7]": {
+    "name": "PWM_FCE2_0_DW.Manual_AirValve[7]",
+    "label": "“右后悬K2空气阀”按钮",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  }
+}
