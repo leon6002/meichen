@@ -106,5 +106,47 @@
     "label": "“右后悬K2空气阀”按钮",
     "method": "random.uniform(0,100)",
     "access": 6
+  },
+  "PWM_FCE2_0_DW.FL_Stiff": {
+    "name": "PWM_FCE2_0_DW.FL_Stiff",
+    "label": "左前刚度",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.FR_Stiff": {
+    "name": "PWM_FCE2_0_DW.FR_Stiff",
+    "label": "右前刚度",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RL_Stiff": {
+    "name": "PWM_FCE2_0_DW.RL_Stiff",
+    "label": "左后刚度",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RR_Stiff": {
+    "name": "PWM_FCE2_0_DW.RR_Stiff",
+    "label": "右后刚度",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.IMU_XAxisDirA": {
+    "name": "PWM_FCE2_0_DW.IMU_YAxisDirA",
+    "label": "IMU_X_Acce",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.IMU_YAxisDirA": {
+    "name": "PWM_FCE2_0_DW.IMU_YAxisDirA",
+    "label": "IMU_Y_Acce",
+    "method": "random.uniform(0,1)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.IMU_ZAxisDirA": {
+    "name": "PWM_FCE2_0_DW.IMU_ZAxisDirA",
+    "label": "IMU_Z_Acce",
+    "method": "random.uniform(0,1)",
+    "access": 6
   }
 }

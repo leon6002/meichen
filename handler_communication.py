@@ -3,7 +3,7 @@ def handle_communication(request_id, method, params):
 
 
 def success_response(request_id, method):
-    if method == 'StartComm':
+    if method == 'StartComm' or method == 'StopComm':
         return {
             "jsonrpc": "2.0",
             "id": request_id,

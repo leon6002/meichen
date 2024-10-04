@@ -43,7 +43,7 @@ async def handle_message(websocket, path):
                 request_id = request["id"]
                 print(f"收到请求: { request_id}")
                 params = request.get("params", [])
-                if method in ["IsCommPortOpen", "StartComm", "GetAppVersion", "EnumCommPorts"]:
+                if method in ["IsCommPortOpen", "StartComm","StopComm", "GetAppVersion", "EnumCommPorts"]:
                     response = handle_communication(request_id, method, params)
                 # 根据method处理不同的请求，这里只处理ReadVariable方法
                 elif method == "ReadVariable":
