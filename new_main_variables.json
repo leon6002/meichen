@@ -346,5 +346,35 @@
     "label": "“储气罐补气”按钮，点击按钮，输出为1，松开按钮，输出为0。",
     "method": "random.choice([0])",
     "access": 6
+  },
+  "PWM_FCE2_0_DW.Y_Acce": {
+    "name": "PWM_FCE2_0_DW.Y_Acce",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.FL_current": {
+    "name": "PWM_FCE2_0_DW.FL_current",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.FR_current": {
+    "name": "PWM_FCE2_0_DW.FR_current",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RL_Current": {
+    "name": "PWM_FCE2_0_DW.RL_current",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
+  },
+  "PWM_FCE2_0_DW.RR_current": {
+    "name": "PWM_FCE2_0_DW.RR_current",
+    "label": "",
+    "method": "random.uniform(0,100)",
+    "access": 6
   }
 }

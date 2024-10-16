@@ -64,6 +64,8 @@ def handle_multi_read(request_id, params, local_data, saved_param):
            value = saved_param[variable_name]
         else:
            # 模拟读取变量的值
+            if variable_name not in local_data:
+                variable_name = "PWM_FCE2_0_DW.FL_down"
             method_str = local_data[variable_name]["method"]
             if method_str == 'random_warning()':
                 if variable_name == 'PWM_FCE2_0_DW.TemperaWarm':
